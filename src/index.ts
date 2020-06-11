@@ -13,7 +13,7 @@ client.on('message', async message => {
 });
 
 
-client.login('NzIwNjc3OTU0NTQzNDE5NTc0.XuJoBQ.DSg0z7Op1IJcnKKgjxPHuft6EEo');
+client.login(process.env.TOKEN);
 
 
 
